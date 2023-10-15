@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+tgKtF4O+Ih5Ikp6fRbMS1nu8nWRf+81YD2fdAu6cZUy3Uq" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #5b6470;">
+        <div class="container">
+            <a class="navbar-brand" href="#">LOREM IPSUM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex d-lg-none"> <!-- Esconder en pantallas grandes -->
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page">Dolor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Sit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Amet</a>
+                    </li>
+                </ul>
+                <form class="d-flex d-none d-lg-block"> <!-- Mostrar solo en pantallas grandes -->
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav ml-auto d-lg-none">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="opcionesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Opciones
+                        </a>
+                        <ul class="dropdown-menu navbar-dark" aria-labelledby="opcionesDropdown">
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-underline" style="color: #555555; margin-left: 5px;" href="#">Opción 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class a="nav-link text-decoration-underline" style="color: #555555; margin-left: 5px;" href="#">Opción 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-underline" style="color: #555555; margin-left: 5px;" href="#">Opción 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-decoration-underline" style="color: #555555; margin-left: 5px;" href="#">Opción 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Lorem ipsum...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div id="myCarousel" class="carousel text-carousel" data-bs-ride="carousel" data-interval="2000"> <!-- Ajustes de intervalo para el carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p>...consectetur adipiscing elit...</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p>...sed do eiusmod tempor incididunt...</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p>...ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row" style="margin-left: 10px; margin-right: 10px;">
+            <div class="col-md-4 order-lg-1 opciones-item d-none d-lg-block">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <p class="text-decoration-underline">Opción 1</p>
+                    </li>
+                    <li class="list-group-item">
+                        <p class="text-decoration-underline">Opción 2</p>
+                    </li>
+                    <li class="list-group-item">
+                        <p class="text-decoration-underline">Opción 3</p>
+                    </li>
+                    <li class="list-group-item">
+                        <p class="text-decoration-underline">Opción 4</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-8 order-lg-2" style="background-color: #ffffff;">
+                <div class="row align-items-start">
+                
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #f5f6f8; margin-bottom: 20px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac quam at odio tincidunt finibus. Fusce vel bibendum felis.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #f5f6f8; margin-bottom: 20px;">
+                        <p>Nullam efficitur sapien in odio finibus, in auctor neque tincidunt. Sed quam eleifend turpis. Integer ac metus eu justo.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #f5f6f8; margin-bottom: 20px;">
+                        <p>Vivamus interdum, metus id malesuada bibendum, erat odio hendrerit turpis, nec varius nunc dui vel nulla. Sed quis elit.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #f5f6f8; margin-bottom: 20px;">
+                        <p>Fusce vel bibendum felis. Proin quis elit. Vestibulum hendrerit, justo et dictum dapibus, velit. Nullam efficitur sapien.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #f5f6f8; margin-bottom: 20px;">
+                        <p>Sed quis eleifend turpis. Integer metus eu justo. Vivamus interdum, metus malesuada bibendum, erat odios hendrerit turpis.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #f5f6f8; margin-bottom: 20px;">
+                        <p>Praesent tincidunt metus metus bibendum. Vivamus dictum sapien. Vestibulum hendrerit, justo dictum dapibus, velit.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #f5f6f8; margin-bottom: 20px;">
+                        <p>Curabitur ac est nec libero lacinia eleifend. Quisque interdum aliquam elit, a fermentum sapien metus quis dignissim eu.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="background-color: #f5f6f8; margin-bottom: 20px;">
+                        <p>Nullam efficitur sapien in odio finibus, in auctor males neque tincidunt. Praesent tincidunt metus nec bibendum bibendum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
